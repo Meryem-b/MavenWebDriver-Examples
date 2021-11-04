@@ -1,0 +1,132 @@
+Microsoft Windows [Version 10.0.19042.1288]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\z004du6d>cd /Users/z004du6d/Desktop/MavenWebDriver
+
+C:\Users\z004du6d\Desktop\MavenWebDriver>git init
+Initialized empty Git repository in C:/Users/z004du6d/Desktop/MavenWebDriver/.git/
+
+C:\Users\z004du6d\Desktop\MavenWebDriver>git add .
+warning: LF will be replaced by CRLF in src/test/java/Test/Homework1OtherWay.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/Test/SoftAssertt.java.
+The file will have its original line endings in your working directory
+
+C:\Users\z004du6d\Desktop\MavenWebDriver>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   pom.xml
+        new file:   src/test/java/Test/DynamicElements.java
+        new file:   src/test/java/Test/FirstLesson.java
+        new file:   src/test/java/Test/Homework1.java
+        new file:   src/test/java/Test/Homework1OtherWay.java
+        new file:   src/test/java/Test/LoginTest.java
+        new file:   src/test/java/Test/NoSuchElementException.java
+        new file:   src/test/java/Test/SecondLesson.java
+        new file:   src/test/java/Test/SoftAssertt.java
+        new file:   src/test/java/Test/test1.java
+        new file:   src/test/java/Test/test2.java
+        new file:   src/test/java/Test/test3.java
+        new file:   src/test/java/Test/test4.java
+        new file:   src/test/java/Test/test5.java
+        new file:   src/test/java/Test/test6.java
+        new file:   src/test/java/Test/test7.java
+        new file:   target/classes/META-INF/MANIFEST.MF
+        new file:   target/classes/META-INF/maven/in.automationtesting.youtube/YoutubeMavenProject/pom.properties
+        new file:   target/classes/META-INF/maven/in.automationtesting.youtube/YoutubeMavenProject/pom.xml
+        new file:   target/test-classes/Test/DynamicElements.class
+        new file:   target/test-classes/Test/FirstLesson.class
+        new file:   target/test-classes/Test/Homework1.class
+        new file:   target/test-classes/Test/Homework1OtherWay.class
+        new file:   target/test-classes/Test/LoginTest.class
+        new file:   target/test-classes/Test/NoSuchElementException.class
+        new file:   target/test-classes/Test/SecondLesson.class
+        new file:   target/test-classes/Test/SoftAssertt.class
+        new file:   target/test-classes/Test/test1.class
+        new file:   target/test-classes/Test/test2.class
+        new file:   target/test-classes/Test/test3.class
+        new file:   target/test-classes/Test/test4.class
+        new file:   target/test-classes/Test/test5.class
+        new file:   target/test-classes/Test/test6.class
+        new file:   target/test-classes/Test/test7.class
+
+
+C:\Users\z004du6d\Desktop\MavenWebDriver>git commit -m "First commit"
+[master (root-commit) c1de990] First commit
+ Committer: Bolat <meryem.bolat@siemens.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 39 files changed, 1186 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 pom.xml
+ create mode 100644 src/test/java/Test/DynamicElements.java
+ create mode 100644 src/test/java/Test/FirstLesson.java
+ create mode 100644 src/test/java/Test/Homework1.java
+ create mode 100644 src/test/java/Test/Homework1OtherWay.java
+ create mode 100644 src/test/java/Test/LoginTest.java
+ create mode 100644 src/test/java/Test/NoSuchElementException.java
+ create mode 100644 src/test/java/Test/SecondLesson.java
+ create mode 100644 src/test/java/Test/SoftAssertt.java
+ create mode 100644 src/test/java/Test/test1.java
+ create mode 100644 src/test/java/Test/test2.java
+ create mode 100644 src/test/java/Test/test3.java
+ create mode 100644 src/test/java/Test/test4.java
+ create mode 100644 src/test/java/Test/test5.java
+ create mode 100644 src/test/java/Test/test6.java
+ create mode 100644 src/test/java/Test/test7.java
+ create mode 100644 target/classes/META-INF/MANIFEST.MF
+ create mode 100644 target/classes/META-INF/maven/in.automationtesting.youtube/YoutubeMavenProject/pom.properties
+ create mode 100644 target/classes/META-INF/maven/in.automationtesting.youtube/YoutubeMavenProject/pom.xml
+ create mode 100644 target/test-classes/Test/DynamicElements.class
+ create mode 100644 target/test-classes/Test/FirstLesson.class
+ create mode 100644 target/test-classes/Test/Homework1.class
+ create mode 100644 target/test-classes/Test/Homework1OtherWay.class
+ create mode 100644 target/test-classes/Test/LoginTest.class
+ create mode 100644 target/test-classes/Test/NoSuchElementException.class
+ create mode 100644 target/test-classes/Test/SecondLesson.class
+ create mode 100644 target/test-classes/Test/SoftAssertt.class
+ create mode 100644 target/test-classes/Test/test1.class
+ create mode 100644 target/test-classes/Test/test2.class
+ create mode 100644 target/test-classes/Test/test3.class
+ create mode 100644 target/test-classes/Test/test4.class
+ create mode 100644 target/test-classes/Test/test5.class
+ create mode 100644 target/test-classes/Test/test6.class
+ create mode 100644 target/test-classes/Test/test7.class
+
+C:\Users\z004du6d\Desktop\MavenWebDriver>git remote add origin https://github.com/Meryem-b/MavenWebDriver-Examples.git
+
+C:\Users\z004du6d\Desktop\MavenWebDriver>git push -u origin master
+Enumerating objects: 53, done.
+Counting objects: 100% (53/53), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (47/47), done.
+Writing objects: 100% (53/53), 26.40 KiB | 2.03 MiB/s, done.
+Total 53 (delta 12), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/Meryem-b/MavenWebDriver-Examples.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\z004du6d\Desktop\MavenWebDriver>
